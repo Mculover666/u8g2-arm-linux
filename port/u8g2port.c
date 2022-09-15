@@ -1,7 +1,7 @@
 #include "u8g2port.h"
 
 static int i2c_device;
-static const char i2c_bus[] = "/dev/i2c-1";
+static const char i2c_bus[] = "/dev/i2c-4";
 
 static int spi_device;
 static const char spi_bus[] = "/dev/spidev0.0";
